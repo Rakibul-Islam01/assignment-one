@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans';
+}
+/* Header area styles */
+.header-banner{
+    background-image: url(images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.header-description{
+    padding: 80px 180px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+}
+.header-description h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #151414;
+    line-height: 65px;
+    margin-bottom: 24px;
+}
+.header-description p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+    color: #444343;
+}
+.header-description .contact-btn{
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #F15B22;
+    padding: 18px 26px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
