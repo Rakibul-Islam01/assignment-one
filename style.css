@@ -79,7 +79,7 @@ body{
 
 /* Plan area styles */
 .my-plan{
-    padding: 100px 0;
+    padding: 80px 0;
 }
 .plan-heading{
     color: #151414;
@@ -109,7 +109,7 @@ body{
 
 /* Motivation section styles */
 .motivation{
-    background: linear-gradient(to right, rgba(226, 26, 93, 0.795), rgba(255, 182, 193, 0.432)), url(images/watch.png);
+    background: linear-gradient(to right, rgba(224, 26, 92, 0.795), rgba(255, 182, 193, 0.432)), url(images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;    
     margin: 100px 200px;
@@ -190,4 +190,35 @@ input {
     padding: 15px 25px ;
     color: #FF194F;
     border-radius: 5px;
+}
+
+/* bonus-area styles */
+.bonus-area{
+    padding: 70px 170px;
+    text-align: center;
+}
+.bonus-area h3{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.bonus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.bonus img{
+    max-width: 200px;
+    border-radius: 50%;
+}
+.bonus-area h4{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.bonus-item{
+    background:#dbdada ;
+    padding: 40px 20px ;
+    color: #000000;
+    box-shadow: 5px 5px 16px #dbdada;
 }
