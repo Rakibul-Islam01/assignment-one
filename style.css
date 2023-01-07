@@ -216,9 +216,13 @@ input {
     margin-top: 20px;
     margin-bottom: 15px;
 }
+.bonus-area p{
+    line-height: 27px;
+}
 .bonus-item{
     background:#dbdada ;
     padding: 40px 20px ;
     color: #000000;
     box-shadow: 5px 5px 16px #dbdada;
+    border-radius: 6px;
 }
