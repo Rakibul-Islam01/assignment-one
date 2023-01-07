@@ -77,3 +77,32 @@ body{
     color: #33DD96;
 }
 
+/* Plan area styles */
+.my-plan{
+    padding: 100px 0;
+}
+.plan-heading{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    text-align: center;
+}
+.plans h4{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin: 24px 0 16px 0
+}
+.plans p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
