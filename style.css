@@ -36,7 +36,7 @@ body{
 .header-description .contact-btn{
     font-size: 20px;
     color: #FFFFFF;
-    background: #F15B22;
+    background: #FF194F;
     padding: 18px 26px;
     border: none;
     border-radius: 5px;
@@ -106,3 +106,35 @@ body{
     font-size: 25px;
     color: #737272;
 }
+
+/* Motivation section styles */
+.motivation{
+    background: linear-gradient(to right, rgba(226, 26, 93, 0.795), rgba(255, 182, 193, 0.432)), url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    margin: 100px 200px;
+    padding: 55px 60px;
+}
+.motivation-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.motivation h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+}
+.motivation a{
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 25px ;
+    border: none;
+    border-radius: 5px;
+    color: #FF194F;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
